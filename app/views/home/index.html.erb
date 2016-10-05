@@ -1,0 +1,6 @@
+<h1>欢迎使用小窝装修助手！</h1>
+<% if current_user %>
+    <%= link_to "退出", logout_path %>
+<% else %>
+    <%= link_to "登录", login_path %>
+<% end %>
