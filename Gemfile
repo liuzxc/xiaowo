@@ -33,7 +33,7 @@ gem 'jbuilder', '~> 2.5'
 # Flexible authentication solution for Rails
 gem 'devise'
 
-gem 'bootstrap', '~> 4.0.0.alpha4'
+gem 'bootstrap-sass', '~> 3.3.6'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
